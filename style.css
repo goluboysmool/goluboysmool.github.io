@@ -1,0 +1,95 @@
+body{
+  background: #c4c7cb;
+  background-image: -webkit-radial-gradient(cover, #FFF,#D1D1D1	);
+  background-image: -moz-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: -o-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: radial-gradient(cover, #e8eaec, #a4a8ae)
+}
+
+html{
+  min-height:100%;
+}
+
+.Navigation{
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+.Navigation li 	{
+	height: auto;
+	width: 150px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font:12px "Bonveno", "Century Gothic";
+	padding: 0;
+	margin: 0;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 0 rgba(255,255,255, .9) inset, 0 1px 3px rgba(0,0,0, .1);
+	border-radius: 3px;
+  margin-left:10px;
+}
+
+.Navigation a{							
+	padding:13px;
+	text-decoration: none; 
+	color:#333;
+	text-shadow: 0 1px #fff;
+	display: block;
+}
+.Navigation li ul{
+	display: none;
+	height: auto;									
+	margin-left: -11px;
+	padding: 0;		
+}				
+
+.Navigation li:hover ul{
+	display: block;
+}
+
+.navbar li ul li {
+	background-color:#eee;
+  	border: 1px solid #ccc;
+} 
+
+.Navigation li:hover, a:hover {
+	 background: #e8e8e8;
+} 
+
+da {background-color: #EEE; 
+    color: #707070;
+padding: 20px 0;
+    font-family: Times New Roman;
+    font-size: 7em;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 0px #EEE, 7px 7px 0px #707070;}
+
+dd {background-color: #EEE;
+        padding: 20px 0;
+       margin: 0 auto;
+        font-family: Garamond;
+        font-size: 7em;
+        text-transform: uppercase;
+        color: #fff;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;}
+dt {background-color: #fff;
+        margin: 20px auto;
+        font-family: Arial;
+        font-size: 7em; 
+        text-transform: uppercase;
+        color: rgba(0,168,255,0.5);
+        text-shadow: 8px 8px 0 rgba(255,0,180,0.5);}
+df {background-color: #eee;
+        text-align: left;
+        padding: 10px 0 50px 35px;
+        margin: 20px auto;
+        font-family: Arial;
+        font-size:7em;
+        text-transform: uppercase;
+        color: #fff;
+        text-shadow: 10px 10px 0 #ffd217, 20px 20px 0 #5ac7ff, 30px 30px 0 #ffd217, 40px 40px 0 #5ac7ff;}
